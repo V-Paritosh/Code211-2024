@@ -753,3 +753,20 @@ header {
     text-align: center;
   }
 }
+
+.footer{
+  background: transparent;
+}
+.footer p {
+  text-align: center; 
+  color: white;
+  background: transparent;
+}
+
+.footer a{
+  color: #7EF9C2;
+  background: transparent;
+}
+.footer a b{
+  background: transparent;
+}
