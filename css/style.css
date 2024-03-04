@@ -754,19 +754,21 @@ header {
   }
 }
 
-.footer{
+.footer {
   background: transparent;
 }
+
 .footer p {
-  text-align: center; 
+  text-align: center;
   color: white;
   background: transparent;
 }
 
-.footer a{
-  color: #7EF9C2;
+.footer a {
+  color: #7ef9c2;
   background: transparent;
 }
-.footer a b{
+
+.footer a b {
   background: transparent;
 }
