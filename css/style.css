@@ -1,5 +1,5 @@
-html {
-
+* {
+  background-color: black;
 }
 
 .clearfix:after {
@@ -12,23 +12,63 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navigation Bar Styles */
+#navbar {
+  background-color: #40637b;
+}
+
+#navbar .nav-center {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #40637b;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #40637b;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 14px 20px;
+  display: block;
+  background-color: #40637b;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  color: black;
 }
 
 header {
-  background-image: linear-gradient(to top, #5B3ADC 0%, #305AED 100%);
+  background-image: linear-gradient(to top, black 0%, #40637b 100%);
   width: 100%;
   text-align: center;
   padding: 50px 0 100px 0;
 }
 
 .center {
-
+  background-color: transparent;
 }
 
 .center img {
   height: 250px;
   width: auto;
+  background-color: transparent;
 }
 
 .center h2 {
@@ -40,6 +80,7 @@ header {
   text-transform: uppercase;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: transparent;
 }
 
 .center h5 {
@@ -51,6 +92,7 @@ header {
   margin-top: 8px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: transparent;
 }
 
 .shuffle-wrap {
@@ -63,7 +105,7 @@ header {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3);
   margin-top: -52px;
   border-radius: 7px;
 }
@@ -73,45 +115,49 @@ header {
   margin: 0;
   margin-right: 40px;
   font-weight: 500;
-  color: black;
   font-size: 1.1em;
   text-align: left;
+  background-color: transparent;
 }
 
 .super {
   margin: 0;
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
   text-transform: uppercase;
-  font-size: .8em;
+  font-size: 0.8em;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .sub {
   margin: 0;
-  color: #2a2a2a;
+  color: black;
+  background-color: white;
 }
 
 .shuffle a {
   text-decoration: none;
+  background-color: white;
 }
 
 .shuffle button {
   font-weight: 500;
   display: inline-block;
-  color: #5B3ADC;
+  color: #40637b;
   cursor: pointer;
   font-size: 1em;
   background-color: transparent;
-  border: solid #5B3ADC 2px;
+  border: solid #40637b 3px;
   padding: 11px 28px 11px 28px;
-  transition: all .3s;
+  transition: all 0.3s;
   border-radius: 5px;
   vertical-align: top;
 }
 
 .shuffle button:hover {
   color: white;
-  background-color: #5B3ADC;
+  background-color: #40637b;
 }
 
 @media (max-width: 625px) {
@@ -170,7 +216,7 @@ header {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #2a2a2a;
+  color: white;
   margin: 0;
   margin-top: 10px;
 }
@@ -178,7 +224,7 @@ header {
 #about hr {
   margin: 0;
   border: none;
-  border-top: solid #5B3ADC 3px;
+  border-top: solid #40637b 4px;
   width: 100px;
 }
 
@@ -187,7 +233,7 @@ header {
   margin-top: 10px;
   font-size: 1.05em;
   line-height: 150%;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .definition-wrap {
@@ -199,46 +245,46 @@ header {
   margin-left: auto;
   margin-right: auto;
   max-width: 650px;
-  box-shadow: 0 5px 18px 0 rgba(0,0,0,0.3);
   padding: 25px;
   border-radius: 8px;
   margin-bottom: 60px;
-  transition: all .3s;
+  transition: all 0.3s;
   position: relative;
+  border: #40637b solid 4px;
 }
 
 #definition:hover {
   position: relative;
   margin-top: -10px;
   margin-bottom: 70px;
-  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.3);
 }
 
 #definition h3 {
-  color: #2a2a2a;
+  color: white;
   font-size: 2.2em;
   margin: 0;
 }
 
 #definition .pro {
   margin: 0;
-  color: rgba(0, 0, 0, 0.6);
+  color: white;
   font-style: italic;
   margin-bottom: 10px;
 }
 
 #definition .small {
   margin: 0;
-  color: #5B3ADC;
+  color: #40637b;
   margin-bottom: -3px;
   text-transform: uppercase;
-  font-size: .95em;
+  font-size: 1.15em;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 #definition .def {
   margin: 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 #schedule {
@@ -247,14 +293,14 @@ header {
 }
 
 #schedule a {
-  color: #5B3ADC;
+  color: #40637b;
 }
 
 #schedule h3 {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #2a2a2a;
+  color: white;
   margin: 0;
   margin-top: 10px;
   margin-left: 35px;
@@ -263,7 +309,7 @@ header {
 #schedule hr {
   margin: 0;
   border: none;
-  border-top: solid #5B3ADC 3px;
+  border-top: solid #40637b 4px;
   width: 100px;
   margin-left: 35px;
 }
@@ -275,52 +321,22 @@ header {
   margin-right: 35px;
 }
 
-.sched-tabs {
-
-}
-
-.sched-tabs p {
-  margin: 0;
-  display: inline-block;
-  color: #2a2a2a;
-  font-weight: 500;
-  font-size: 1.2em;
-  background-color: #F7F7F7;
-  padding: 15px 45px 15px 45px;
-  cursor: pointer;
-  border-radius: 8px 8px 0 0;
-  box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.3);
-  transition: all .3s;
-}
-
-.sched-tabs .active {
-  color: white;
-  background-color: #5B3ADC;
-  box-shadow: none;
-}
-
 .sched-grid {
-  background-image: linear-gradient(to top, #305AED 0%, #5B3ADC 100%);
-  border-radius: 0 8px 8px 8px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  background-color: #40637b;
+  border-radius: 8px;
   padding: 35px 35px 40px 35px;
-}
-
-#day1, #day2 {
-  width: 100%;
 }
 
 .table-row {
   width: 100%;
-  background-color: white;
   margin: 0;
   margin-top: 12px;
-  border-radius: 4px;
-  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.3);
-  transition: all .3s;
+  border-radius: 10px;
+  transition: all 0.3s;
   top: 0;
   left: 0;
   position: relative;
+  background-color: white;
 }
 
 .table-row:hover {
@@ -334,19 +350,22 @@ header {
   width: calc(30% - 25px);
   padding: 20px 0 20px 25px;
   display: inline-block;
-  color: #2a2a2a;
+  color: black;
   font-weight: 500;
   font-size: 1.25em;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .showntable {
   display: block;
-  transition: all .3s;
+  transition: all 0.3s;
+  background-color: transparent;
 }
 
 .hiddentable {
   display: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 @media (max-width: 940px) {
@@ -365,7 +384,7 @@ header {
     margin-left: 15px;
   }
   #schedule hr {
-  margin-left: 15px;
+    margin-left: 15px;
   }
   .sched-grid {
     padding: 25px 25px 30px 25px;
@@ -387,7 +406,7 @@ header {
     margin-left: 12px;
   }
   #schedule hr {
-  margin-left: 12px;
+    margin-left: 12px;
   }
   .sched-grid {
     padding: 15px;
@@ -424,116 +443,6 @@ header {
   }
 }
 
-/* Button */
-
-.button-a {
-  text-decoration: none;
-}
-
-.button {
-  margin: 50px auto 50px auto;
-  text-align: center;
-}
-
-.button img {
-  width: 90px;
-}
-
-.button h5 {
-  font-size: 1.6em;
-  text-decoration: none;
-  margin: 0;
-  margin-top: 12px;
-  color: #2a2a2a;
-  margin-bottom: 8px;
-}
-
-.button p {
-  margin: 0;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-/* People Div */
-
-#people {
-  max-width: 950px;
-  margin: 60px auto 40px auto;
-}
-
-#people h3 {
-  font-size: 2em;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #2a2a2a;
-  margin: 0;
-  margin-top: 10px;
-  margin-left: 35px;
-}
-
-#people hr {
-  margin: 0;
-  border: none;
-  border-top: solid #5B3ADC 3px;
-  width: 100px;
-  margin-left: 35px;
-}
-
-.people-div {
-  text-align: center;
-}
-
-.person {
-  width: 294px;
-  background-color: white;
-  display: inline-block;
-  text-align: left;
-  margin: 10px;
-  vertical-align: top;
-  box-shadow: 0 3px 16px 0 rgba(0,0,0,0.35);
-  border-radius: 8px;
-  position: relative;
-  top: 0;
-  transition: all .3s;
-}
-
-.person img {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
-  margin: 0;
-}
-
-.person h4 {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0;
-  font-size: 1.5em;
-  margin: 10px auto 0px auto;
-  color: #2a2a2a;
-}
-
-.person .desc {
-  padding-left: 15px;
-  margin: 0;
-  color: rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-  font-size: .85em;
-  margin-bottom: 8px;
-}
-
-.person .position {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0;
-  font-size: 1.1em;
-  margin-bottom: 15px;
-  color: #2a2a2a;
-}
-
-.person:hover {
-  box-shadow: 0 13px 16px 0 rgba(0,0,0,0.35);
-  top: -10px;
-}
-
 @media (max-width: 400px) {
   #people h3 {
     margin-left: 20px;
@@ -552,7 +461,7 @@ header {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #2a2a2a;
+  color: white;
   margin: 0;
   margin-top: 10px;
   margin-left: 35px;
@@ -561,7 +470,7 @@ header {
 #faq hr {
   margin: 0;
   border: none;
-  border-top: solid #5B3ADC 3px;
+  border-top: solid #40637b 4px;
   width: 100px;
   margin-left: 35px;
 }
@@ -570,7 +479,7 @@ header {
   margin: 0;
   margin-left: 35px;
   margin-top: 5px;
-  color: rgba(0, 0, 0, 0.6);
+  color: white;
   padding-right: 25px;
 }
 
@@ -593,8 +502,7 @@ header {
   padding-top: 1.5%;
   padding-bottom: 3%;
   background-color: white;
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.15);
-  border-top: solid #5B3ADC 3px;
+  border-top: solid #40637b 4px;
   border-radius: 0 0 8px 8px;
 }
 
@@ -602,18 +510,20 @@ header {
   margin: 0;
   font-size: 1.6em;
   margin-bottom: 6px;
-  color: #2a2a2a;
+  color: black;
+  background: transparent;
 }
 
 .faq-item p {
   margin: 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: black;
   line-height: 125%;
   font-size: 1.05em;
+  background: transparent;
 }
 
 .faq-contact {
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
   max-width: 500px;
   padding: 0 35px 0 35px;
   text-align: center;
@@ -623,7 +533,8 @@ header {
 
 #faq a {
   text-decoration: none;
-  color: #5B3ADC;
+  color: #40637b;
+  background: transparent;
 }
 
 @media (max-width: 700px) {
@@ -635,7 +546,7 @@ header {
     padding: 5%;
     padding-top: 4.5%;
     padding-bottom: 5.5%;
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15);
   }
   .faq-grid-wrap {
     padding: 0 35px 0 35px;
@@ -667,7 +578,7 @@ header {
 }
 
 #reps {
-  background-image: linear-gradient(to top, #305AED 0%, #5B3ADC 100%);
+  background-image: linear-gradient(to bottom, black 10%, #40637b 100%);
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -679,12 +590,13 @@ header {
   margin-right: auto;
   margin-bottom: 40px;
   text-align: center;
+  background: transparent;
 }
 
 #reps hr {
   margin: 0;
   border: none;
-  border-top: solid white 3px;
+  border-top: solid #40637b 4px;
   width: 100px;
   margin-left: 35px;
 }
@@ -698,6 +610,7 @@ header {
   margin: 0;
   margin-top: 10px;
   margin-left: 35px;
+  background: transparent;
 }
 
 .rep-desc {
@@ -705,9 +618,10 @@ header {
   text-align: left;
   margin-left: 35px;
   margin-top: 5px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
   padding-right: 25px;
   margin-bottom: 35px;
+  background: transparent;
 }
 
 .rep-block {
@@ -720,7 +634,6 @@ header {
   border-radius: 8px;
   width: 400px;
   text-align: left;
-  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
 }
 
 .rep-block img {
@@ -728,30 +641,33 @@ header {
   width: 100px;
   float: left;
   margin-top: 5px;
+  background: transparent;
 }
 
 .rep-text {
   float: left;
   margin-left: 20px;
+  background-color: transparent;
 }
 
 .rep-text h4 {
-  color: #2a2a2a;
   font-size: 1.3em;
   margin: 0;
   font-weight: 500;
   margin-bottom: 5px;
+  background-color: transparent;
 }
 
 .rep-text p {
   margin: 0;
-  color: black;
+  background-color: transparent;
 }
 
 .rep-text a {
   margin: 0;
   margin-left: 10px;
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
+  background-color: transparent;
 }
 
 .rep-text .second {
