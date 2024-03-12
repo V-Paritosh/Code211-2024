@@ -454,6 +454,35 @@ header {
   }
 }
 
+/* Button */
+
+.button-a {
+  text-decoration: none;
+}
+
+.button {
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+.button img {
+  width: 90px;
+}
+
+.button h5 {
+  font-size: 1.6em;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 12px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.button p {
+  margin: 0;
+  color: white
+}
+
 #faq {
   max-width: 950px;
   margin: 60px auto 40px auto;
