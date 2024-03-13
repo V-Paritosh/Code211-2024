@@ -5,7 +5,7 @@
   clear: both;
 }
 
-*{
+* {
   background-color: black;
   color: white;
 }
@@ -18,7 +18,7 @@ body {
 
 .back {
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   position: absolute;
   margin: 0;
   top: 4%;
@@ -27,7 +27,7 @@ body {
 }
 
 .back span {
-  font-size: .9em;
+  font-size: 0.9em;
   background: transparent;
 }
 
@@ -87,7 +87,7 @@ header p {
 .items h4 {
   margin: 0;
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: 0.85em;
   margin: 10px auto 3px auto;
 }
 
@@ -97,6 +97,38 @@ header p {
   font-size: 1.1em;
   margin: 2px auto 0 auto;
   margin-left: 7px;
+}
+
+.tab {
+  overflow: hidden;
+  border: none;
+}
+
+.tab button {
+  background-color: black;
+  float: left;
+  border: white solid 2px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+.tab button:hover {
+  background-color: #40637b;
+}
+
+.tab button.active {
+  background-color: #40637b;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  color: white;
+  background-color: black;
 }
 
 .workshops {
@@ -112,7 +144,7 @@ header p {
 }
 
 .workshop a {
-  color: #E99A27;
+  color: #e99a27;
 }
 
 .workshop h3 {
@@ -122,7 +154,7 @@ header p {
 
 .workshop .time {
   margin: 0px 0 8px 0;
-  color: #E99A27;
+  color: #e99a27;
   font-size: 1.1em;
 }
 
