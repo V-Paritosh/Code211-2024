@@ -19,6 +19,12 @@ body {
 #navbar {
   background-color: #40637b;
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  height: 8vh;
 }
 
 #navbar .nav-center {
@@ -33,6 +39,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   background-color: #40637b;
 }
@@ -54,6 +61,12 @@ body {
 .nav-links a:hover {
   background-color: white;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .nav-links li {
+    display: none;
+  }
 }
 
 header {
@@ -107,7 +120,6 @@ header {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3);
   margin-top: -52px;
   border-radius: 7px;
 }
@@ -168,37 +180,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  .shuffle {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0;
-    padding-top: 25px;
-    width: 100%;
-  }
-
-  .shuffle .encompass {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    margin-bottom: 20px;
-  }
-
-  .super {
-    font-size: 1em;
-  }
-
-  .sub {
-    font-size: 1.2em;
-  }
-
-  .shuffle button {
-    font-size: 1.2em;
-    margin-top: 5px;
   }
 }
 
