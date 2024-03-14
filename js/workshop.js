@@ -1,4 +1,4 @@
-function openLevel(evt, levelName) {
+/*function openLevel(evt, levelName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -37,3 +37,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+*/

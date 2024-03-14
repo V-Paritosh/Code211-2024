@@ -99,6 +99,7 @@ header p {
   margin-left: 7px;
 }
 
+/* TAB TESTING CODE
 .tab {
   overflow: hidden;
   border: none;
@@ -130,6 +131,7 @@ header p {
   color: white;
   background-color: black;
 }
+*/
 
 .workshops {
   max-width: 780px;
@@ -147,9 +149,20 @@ header p {
   color: #e99a27;
 }
 
-.workshop h3 {
+.workshop h2 {
   margin: 0;
   font-size: 2em;
+}
+
+.workshop h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.workshop h4 {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .workshop .time {
@@ -160,6 +173,7 @@ header p {
 
 .workshop .desc {
   margin: 0;
+  margin-bottom: -8px;
   line-height: 135%;
 }
 
@@ -171,7 +185,8 @@ header p {
 }
 
 .workshop ul {
-  margin: 0;
+  margin: 0px;
+  margin-bottom: 30px;
 }
 
 .workshop li {

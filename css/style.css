@@ -328,7 +328,7 @@ header {
   width: 104%;
 }
 
-.table-row p {
+.table-row p{
   margin: 0;
   width: calc(30% - 25px);
   padding: 20px 0 20px 25px;
@@ -338,6 +338,10 @@ header {
   font-size: 1.25em;
   background-color: white;
   border-radius: 10px;
+}
+
+.table-row p a{
+  background-color: transparent;
 }
 
 .showntable {
