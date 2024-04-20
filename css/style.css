@@ -76,6 +76,10 @@ header {
   padding: 50px 0 100px 0;
 }
 
+.codeBattle {
+  color: white;
+} 
+
 .center {
   background-color: transparent;
 }
