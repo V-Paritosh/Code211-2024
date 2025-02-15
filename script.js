@@ -62,13 +62,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let countdown = 5;
   const countdownElement = document.getElementById("countdown");
 
-  // const interval = setInterval(function () {
-  //   countdown--;
-  //   countdownElement.textContent = countdown;
+  const interval = setInterval(function () {
+    countdown--;
+    countdownElement.textContent = countdown;
 
-  //   if (countdown === 0) {
-  //     clearInterval(interval);
-  //     window.location.href = "https://coded211.github.io/";
-  //   }
-  // }, 1000);
+    if (countdown === 0) {
+      clearInterval(interval);
+      window.location.href = "https://coded211.github.io/";
+    }
+  }, 1000);
 });
