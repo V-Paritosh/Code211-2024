@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (countdown === 0) {
       clearInterval(interval);
-      window.location.href = "https://coded211.github.io/";
+      window.location.href = "https://code211.org/";
     }
   }, 1000);
 });
