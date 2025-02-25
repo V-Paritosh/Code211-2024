@@ -1,0 +1,387 @@
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+* {
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.back {
+  text-decoration: none;
+  transition: all 0.3s;
+  position: absolute;
+  margin: 0;
+  top: 4%;
+  left: 4%;
+  background: transparent;
+}
+
+.back span {
+  font-size: 0.9em;
+  background: transparent;
+}
+
+header {
+  background-image: linear-gradient(to top, black 0%, #40637b 100%);
+  width: 100%;
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+
+header h1 {
+  background-color: transparent;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 2.8em;
+}
+
+header p {
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.index {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.index h2 {
+  margin: 0;
+  background: transparent;
+  color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 2em;
+}
+
+.index hr {
+  margin: 0 auto 0 auto;
+  border: none;
+  border-top: solid #40637b 3px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.items {
+  text-align: center;
+  background: transparent;
+}
+
+.smooth {
+  background: transparent;
+}
+
+.items h4 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  margin: 10px auto 3px auto;
+}
+
+.items a {
+  display: block;
+  color: #40637b;
+  font-size: 1.1em;
+  margin: 2px auto 0 auto;
+  margin-left: 7px;
+}
+
+/* TAB TESTING CODE
+.tab {
+  overflow: hidden;
+  border: none;
+}
+
+.tab button {
+  background-color: black;
+  float: left;
+  border: white solid 2px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+.tab button:hover {
+  background-color: #40637b;
+}
+
+.tab button.active {
+  background-color: #40637b;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+*/
+
+.workshops {
+  max-width: 780px;
+  margin: 60px auto 60px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.workshop {
+  margin: 0 0 30px 0;
+  padding-top: 25px;
+}
+
+.workshop a {
+  color: #e99a27;
+}
+
+.workshop h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.workshop h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.workshop h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.workshop .time {
+  margin: 0px 0 8px 0;
+  color: #e99a27;
+  font-size: 1.1em;
+}
+
+.workshop .desc {
+  margin: 0;
+  margin-bottom: -8px;
+  line-height: 135%;
+}
+
+.workshop h6 {
+  margin: 0;
+  font-size: 1.1em;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+
+.workshop ul {
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.workshop li {
+  margin-bottom: 2px;
+}
+
+#reps {
+  background-image: linear-gradient(to bottom, black 10%, #40637b 100%);
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.rep-wrap {
+  max-width: 950px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  background: transparent;
+}
+
+#reps hr {
+  margin: 0;
+  border: none;
+  border-top: solid #40637b 4px;
+  width: 100px;
+  margin-left: 35px;
+}
+
+#reps h3 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 35px;
+  background: transparent;
+}
+
+.rep-desc {
+  margin: 0;
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.9);
+  padding-right: 25px;
+  margin-bottom: 35px;
+  background: transparent;
+}
+
+.rep-block {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 15px 20px 15px;
+  height: 109px;
+  margin-right: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: left;
+}
+
+.rep-block img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-top: 5px;
+  background: transparent;
+}
+
+.rep-text {
+  float: left;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.rep-text h4 {
+  color: black;
+  font-size: 1.3em;
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.rep-text p {
+  color: black;
+  margin: 0;
+  background-color: transparent;
+}
+
+.rep-text a {
+  margin: 0;
+  margin-left: 10px;
+  color: black;
+  background-color: transparent;
+}
+
+.rep-text .second {
+  margin-top: 8px;
+}
+
+@media (max-width: 930px) {
+  .rep-block {
+    height: auto;
+    width: auto;
+    text-align: center;
+    width: 300px;
+  }
+
+  .rep-block img {
+    float: none;
+    margin: 0 auto 8px auto;
+  }
+
+  .rep-text {
+    float: none;
+    text-align: left;
+  }
+
+  .rep-text h4 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .rep-block {
+    height: auto;
+    text-align: center;
+    width: 90%;
+    padding: 3% 2% 3% 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .rep-block img {
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .rep-text {
+    float: left;
+    text-align: left;
+  }
+
+  .rep-text h4 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .rep-block {
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 450px) {
+  .rep-block {
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    width: 90%;
+  }
+
+  .rep-block img {
+    float: none;
+    margin: 8px auto 8px auto;
+    height: 80px;
+    width: 80px;
+  }
+
+  .rep-text {
+    float: none;
+    text-align: left;
+  }
+
+  .rep-text h4 {
+    text-align: center;
+  }
+}
+
+.footer {
+  background: transparent;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  background: transparent;
+}
+
+.footer a b {
+  background: transparent;
+}
